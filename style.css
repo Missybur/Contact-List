@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  background-color: #B8B89F;
+  color: #FF3B77;
+}
+
+h1 {
+  color: #CDFF00;
+}
+
+div {
+  /*margin: 20px;*/
+  padding: 20px;
+  padding-top: 20px;
+}
+
+.container-top {
+  padding: 30px;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+
+table, #sample {
+  padding-top: 15px;
+  display: none;
+  color: #FF3B77;
+  border: 2px solid #CDFF00;
+
+}
+
+th {
+  text-align: center;
+}
+
+
+.table {
+  border: 2px solid #CDFF00;
+  text-align: left;
+  background-color: #fff;
+}
+
+tr{
+  /*border: 2px solid #CDFF00;*/
+  color: #FF3B77;
+}
+
+#add {
+  width: 45px;
+  height: 45px;
+  padding-left: 9px;
+  background-color: #FF3B77;
+  color: #CDFF00;
+  border-radius: 50px;
+}
+
+#checkbox {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #FF3B77;
+  text-align: center;
+  color: #CDFF00;
+  border-radius: 50px;
+
+}
+
+button {
+  border: 2px solid #FF3B77;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+#edit {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  margin-left: 30px;
+  left: 1px;
+  right: 1px;
+  padding-top: 2px;
+  text-align: center;
+  background-color: #FF3B77;
+  border: ##CDFF00;
+  /*border: 1px solid #FF3B77;*/
+}
+
+#date-in-table {
+  text-align: center;
+
+}
+
+input {
+  background-color: #CDFF00;
+  border: 2px solid #FF3B77;
+  margin: 10px;
+  display: #FF3B77;
+  text-align: center;
+}
