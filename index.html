@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grid Model</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/united/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Contact List</h1>
+    <label for="lastName">First Name:</label>
+    <input type="text" id="firstName">
+    <label for="lastName">Last Name:</label>
+    <input type="text" id='lastName'>
+    <label for="phoneNumber">Phone Number:</label>
+    <input id="phoneNumber" type="value" placeholder="xxx-xxx-xxxx">
+    <label for="email">Email:</label>
+    <input id="email" type="email">
+    <button class="btn btn-default" id='add'>Add</button>
+    <!-- <div class="container" id="contactResultTable"> -->
+      <table id="contact-table" class="table table-bordered">
+        <thead>
+          <tr>
+            <th class='col-xs-1'>Edit</th>
+            <th class='col-xs-2'>First Name:</th>
+            <th class='col-xs-2'>Last Name:</th>
+            <th class='col-xs-2'>Phone Number:</th>
+            <th class='col-xs-2'>Email:</th>
+            <th class='col-xs-1'>Delete:</th>
+          </tr>
+        </thead>
+        <tbody id='list'></tbody>
+
+         <tr id='sample'>
+        <td><button class=".editable btn btn-default" id='edit'>E</button></td>
+        <td class='firstName'></td>
+        <td class='lastName'></td>
+        <td class='phoneNumber'></td>
+        <td type="email" class='email'></td>
+        <td><a class='remove' href="#"><i class='fa fa-trash'></i></a></td>
+      </tr>
+    </table>
+   <!--      <tr id='sample'>
+          <td><input id="checkbox" type="checkbox"></td>
+          <td class="first-name-table" id='firstName'></td>
+          <td class="first-name-table" id='lastName'></td>
+          <td class="first-name-table" id='phoneNumber'></td>
+          <td class="first-name-table" id='email'></td>
+          <td><a class='remove' href="#"><i class='fa fa-trash'></i></a></td>
+        </tr>
+      </table> -->
+    <!-- </div> -->
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
