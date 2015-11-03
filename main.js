@@ -88,5 +88,9 @@
 
     $('#list').append(taskElements);
   }
+  
+   function saveLocalStorage() {
+    localStorage.tasks = JSON.stringify(tasks);
+  }
 
 })();
